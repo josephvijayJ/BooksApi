@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Italianno&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(to right top, #251945, #333665, #425584, #5275a3, #6696c1, #6da6d0, #75b7de, #7ec8ec, #78cbf0, #70cdf4, #68d0f7, #5fd3fb);
+}
+
+.outline {
+  border: blue;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #919de5, #88a1e9, #7da4ec, #76a1f0, #6f9ef4, #679af7, #5f97fb);
+  position: relative;
+}
+.title {
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Luckiest Guy', cursive;
+  /* font-style: italic; */
+  font-weight: bolder;
+  font-size: 3rem;
+  color: brown;
+  margin: 20px;
+  padding:20px
+}
+
+/* .fas {
+  position: absolute;
+
+  left: 30px;
+  top: 65px;
+  font-size: 5rem;
+} */
+.content-style{
+  font-family: 'Caveat', cursive;
+  font-weight: bolder;
+  padding:20px;
+}
+.push-effect:hover {
+  transform: translate(1);
+  color:#2F4858;
+  font-size: xx-large;
+  padding:20px
+  border-radius:20px;
+  box-shadow : 9px 7px 41px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 7px 41px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 7px 41px 1px rgba(0, 0, 0, 0.75);
+}
+.specify{
+  color:yellow;
+}
+
+
+@media(min-width:800px){
+.fas{
+  position: absolute;
+  
+  left: 30px;
+  top: 140px;
+  font-size: 5rem;
+  color:blanchedalmond
+}
+
+}
